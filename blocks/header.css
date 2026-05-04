@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.header__logo {
+  width: 254px;
+  height: 68px;
+}
+
+.header__brand {
+  margin: 0;
+  margin-top: 16px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.header__title {
+  margin: 0;
+  margin-top: 90px;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.header__subtitle {
+  margin: 0;
+  margin-top: 32px;
+  max-width: 720px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.header__image {
+  width: 984px;
+  margin-top: 64px;
+  filter: grayscale(100%);
+}
