@@ -52,5 +52,5 @@ https://wallanmoreno.github.io/web_project_homeland/
 ## Como rodar o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo
+git clone https://wallanmoreno.github.io/web_project_homeland/
 ```
