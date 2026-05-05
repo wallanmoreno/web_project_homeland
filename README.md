@@ -1,8 +1,6 @@
-# Tripleten web_project_homeland
+# Web Project Homeland — De Pátria para Pátria
 
-# De Pátria para Pátria
-
-Projeto desenvolvido durante o Sprint 5 da TripleTen, focado em layout responsivo utilizando HTML e CSS.
+Projeto desenvolvido durante os Sprints 5 e 6 da TripleTen, com foco em criação de layouts responsivos utilizando HTML e CSS, seguindo fielmente um design no Figma.
 
 ---
 
@@ -18,11 +16,12 @@ Projeto desenvolvido durante o Sprint 5 da TripleTen, focado em layout responsiv
 
 ## Funcionalidades
 
-- Layout responsivo (Desktop, Tablet e Mobile)
-- Organização com metodologia BEM
-- Estrutura semântica
-- Grid layout para cards de cidades
-- Botões interativos com hover
+- Layout totalmente responsivo (Desktop, Tablet e Mobile)
+- Organização de código com metodologia BEM (BEM Flat)
+- Estrutura semântica seguindo boas práticas
+- Uso de CSS Grid nas seções `photo-grid` e `places`
+- Botões interativos com efeito hover
+- Integração com Git e GitHub (branches, commits e versionamento)
 
 ---
 
@@ -31,11 +30,15 @@ Projeto desenvolvido durante o Sprint 5 da TripleTen, focado em layout responsiv
 - Construção de layouts profissionais com CSS Grid
 - Responsividade com Media Queries
 - Organização de código com BEM
-- Boas práticas de HTML semântico
+- Estruturação de projetos front-end
+- Uso de Git (branching, commits e push)
+- Adaptação fiel de layouts a partir do Figma
 
 ---
 
 ## Responsividade
+
+O projeto foi desenvolvido para funcionar corretamente em diferentes tamanhos de tela:
 
 - Desktop (1280px)
 - Tablet (768px)
@@ -45,12 +48,18 @@ Projeto desenvolvido durante o Sprint 5 da TripleTen, focado em layout responsiv
 
 ## Deploy
 
-https://wallanmoreno.github.io/web_project_homeland/
+Acesse o projeto online:
+
+👉 https://wallanmoreno.github.io/web_project_homeland/
 
 ---
 
 ## Como rodar o projeto
 
+Clone o repositório:
+
 ```bash
-git clone https://wallanmoreno.github.io/web_project_homeland/
+git clone https://github.com/wallanmoreno/web_project_homeland.git
 ```
+
+Depois abra o arquivo `index.html` no navegador ou utilize uma extensão como Live Server no VS Code.
