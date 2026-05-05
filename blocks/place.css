@@ -146,3 +146,39 @@
     margin: 30px 16px 0;
   }
 }
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    gap: 28px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 544px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .place__image {
+    width: 100%;
+    height: auto;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
